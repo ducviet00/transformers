@@ -643,6 +643,7 @@ MODEL_FOR_CAUSAL_LM_MAPPING_NAMES = OrderedDict(
         ("zamba", "ZambaForCausalLM"),
         ("zamba2", "Zamba2ForCausalLM"),
         ("florence2", "Florence2ForConditionalGeneration"),
+        ("florence2", "Florence2ForConditionalGeneration"),
     ]
 )
 
@@ -867,6 +868,7 @@ MODEL_FOR_VISION_2_SEQ_MAPPING_NAMES = OrderedDict(
         ("vipllava", "VipLlavaForConditionalGeneration"),
         ("vision-encoder-decoder", "VisionEncoderDecoderModel"),
         ("florence2", "Florence2ForConditionalGeneration"),
+        ("florence2", "Florence2ForConditionalGeneration"),
     ]
 )
 
@@ -878,6 +880,7 @@ MODEL_FOR_RETRIEVAL_MAPPING_NAMES = OrderedDict(
 
 MODEL_FOR_IMAGE_TEXT_TO_TEXT_MAPPING_NAMES = OrderedDict(
     [
+        ("florence2", "Florence2ForConditionalGeneration"),
         ("florence2", "Florence2ForConditionalGeneration"),
         ("aria", "AriaForConditionalGeneration"),
         ("aya_vision", "AyaVisionForConditionalGeneration"),
